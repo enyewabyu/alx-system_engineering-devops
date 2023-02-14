@@ -1,2 +1,2 @@
 !#/bash/bin
-
+printf '%x\n' 26560 67c0
