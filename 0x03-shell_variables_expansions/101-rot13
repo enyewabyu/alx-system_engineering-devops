@@ -1,2 +1,2 @@
 !#/bash/bin
-printf '%x\n' 26560 67c0
+echo 'ASCII.' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
