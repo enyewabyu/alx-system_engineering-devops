@@ -65,103 +65,89 @@ Note: You do not have to learn about fmt, pr, du, gzip, tar, lpr, sed and awk ye
 
   ## Quiz questions
 ``` Great! You've completed the quiz successfully! Keep going! (Show quiz) ```
+
 ## Question #0
+
 Which symbol should I use to redirect the standard output to a file (overwrite the file)?
 
-[] &
+- [ ] &
 
-[x] >
+- [x] >
 
-[] 2>
+- [ ] 2>
 
-[] >>
+- [ ] >>
 
 ## Question #1
 Which symbol should I use to redirect the error output to the standard output?
 
 
-1>&2
+- [ ] 1>&2
 
+- [ ] 2>
 
-2>
-
-
-2>&1
+- [x] 2>&1
 
 ## Question #2
 Which symbol should I use to redirect the standard output to a file (appending to the file)?
 
 
-&
+- [ ] &
 
+- [ ] >
 
->
+- [ ] 2>
 
-
-2>
-
-
->>
+- [x] >>
 
 ## Question #3
 Which command should I use to display the last 11 lines of a file?
 
 
-tail 11 my_file
+- [ ] tail 11 my_file
 
+- [x] tail -n 11 my_file
 
-tail -n 11 my_file
+- [ ] head 11 my_file
 
-
-head 11 my_file
-
-
-head -n 11 my_file
+- [ ] head -n 11 my_file
 
 ## Question #4
 Which command should I use to display the entire file content?
 
 
-tail
+- [ ] tail
 
+- [ ] head
 
-head
+- [x] cat
 
-
-cat
-
-
-grep
+- [ ] grep
 
 ## Question #5
 Which symbol should I use to escape a special character?
 
 
-#
+- [ ] #
 
+- [ ] $
 
-$
+- [ ] !
 
-
-!
-
-
-\
+- [x] \
 
 ## Question #6
 Which symbol should I use to start a comment?
 
+- [x] #
 
-#
+- [ ] //
+
+- [ ] !
+
+- [ ] &
 
 
-//
-
-
-!
-
-
-&
 ## Tasks
 
 ## 0. Hello World
