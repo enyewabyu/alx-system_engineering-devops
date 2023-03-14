@@ -240,7 +240,7 @@ julien@ubuntu:~$
 * Directory: 0x00-shell_basics
 * File: 2-bring_me_home
     
-```3. The long format ``
+`` 3. The long format ``
 
 Display current directory contents in a long format
 
@@ -516,7 +516,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 * Directory: 0x00-shell_basics
 * File: 101-clean_emacs
     
-````  17. Tree  `````
+````  17. Tree  ````
 
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
