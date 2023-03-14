@@ -257,13 +257,12 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x00-shell_basics
 File: 3-listfiles
     
-4. Hidden files
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+```` 4. Hidden files ````
+
 Display current directory contents, including hidden files (starting with .). Use the long format.
 
 Example:
-
+````
 $ ./4-listmorefiles
 total 32
 drwxr-xr-x@ 6 sylvain staff 204 Jan 25 00:29 .
@@ -274,6 +273,7 @@ drwxr-xr-x@ 43 sylvain staff 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:41 4-listmorefiles
 $
+
 ````
 ### Repo:
 
@@ -281,7 +281,7 @@ $
 * Directory: 0x00-shell_basics
 * File: 4-listmorefiles
     
-```5. I love numbers```
+``` 5. I love numbers ```
 
 Display current directory contents.
 
@@ -302,13 +302,13 @@ drwxr-xr-x@ 43 501 20 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 501 20 18 Jan 25 00:43 5-listfilesdigitonly
 $
 ````
-`### Repo:
+### Repo:
 
 * GitHub repository: alx-system_engineering-devops
 * Directory: 0x00-shell_basics
 * File: 5-listfilesdigitonly
     
-```6. Welcome ``
+```  6. Welcome  ```
 
 Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 
@@ -325,7 +325,7 @@ $
 * Directory: 0x00-shell_basics
 * File: 6-firstdirectory
     
-```7. Betty in my first directory```
+``` 7. Betty in my first directory ```
 
 Move the file betty from /tmp/ to /tmp/my_first_directory.
 
@@ -445,7 +445,7 @@ lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
 * Directory: 0x00-shell_basics
 * File: 13-symbolic_link
     
-```14. Copy HTML files```
+``` 14. Copy HTML files ```
 
 Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
@@ -495,7 +495,7 @@ drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
 * Directory: 0x00-shell_basics
 * File: 100-lets_move
     
-```` 16. Clean Emacs ````
+````  16. Clean Emacs  ````
 
 Create a script that deletes all files in the current working directory that end with the character ~.
 ````
@@ -512,7 +512,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 * Directory: 0x00-shell_basics
 * File: 101-clean_emacs
     
-```` 17. Tree `````
+````  17. Tree  `````
 
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
@@ -543,7 +543,7 @@ julien@ubuntu:/tmp/h$
 * Directory: 0x00-shell_basics
 * File: 102-tree
     
-```` 18. Life is a series of commas, not periods ````
+````  18. Life is a series of commas, not periods  ````
 
 Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
@@ -563,6 +563,7 @@ ubuntu@ubuntu:~/$ ./103-commas
 ./, ../, 0-commas, 0-commas-checks/, 1-empty_casks, 2-gifs, 3-directories, 4-zeros, 5-rot13, 6-odd, 7-sort_rot13, Makefile, quote, .test, test_dir/, test.var
 
 ubuntu@ubuntu:~/$
+
 ````
 ### Repo:
 
@@ -594,6 +595,7 @@ ls:                    data
 thisisaschoolfile: School data
 thisisatextfile:       ASCII text
 ubuntu@ip-172-31-63-244:/tmp/magic$
+
 ````
 ### Repo:
 
